@@ -34,8 +34,13 @@ class ListViewParceiros extends StatelessWidget {
                   fit: BoxFit.fill,
                 ),
               ),
-              const Text(
-                  'Prática e com sistema exclusivo de infusão e extração, também pode ser usada no preparo de chás e outras bebidas.'),
+              const Padding(
+                padding: EdgeInsets.only(top: 5, right: 5, left: 5),
+                child: Text(
+                  'Prática e com sistema exclusivo de infusão e extração, também pode ser usada no preparo de chás e outras bebidas.',
+                  textAlign: TextAlign.justify,
+                ),
+              ),
               IconButton(
                 onPressed: () {},
                 icon: const Icon(Icons.shopping_cart),
@@ -67,8 +72,13 @@ class ListViewParceiros extends StatelessWidget {
                   fit: BoxFit.fill,
                 ),
               ),
-              const Text(
-                  'Microlotes de cafés de pequenos produtores. Cada lote é especial e único. Nosso produto sempre é entregue fresco.'),
+              const Padding(
+                padding: EdgeInsets.only(top: 5, right: 5, left: 5),
+                child: Text(
+                  'Microlotes de cafés de pequenos produtores. Cada lote é especial e único. Nosso produto sempre é entregue fresco.',
+                  textAlign: TextAlign.justify,
+                ),
+              ),
               IconButton(
                 onPressed: () {},
                 icon: const Icon(Icons.shopping_cart),
@@ -100,8 +110,13 @@ class ListViewParceiros extends StatelessWidget {
                   fit: BoxFit.fill,
                 ),
               ),
-              const Text(
-                  'Leve, compacta e fácil de usar. Ideal para pesar café com a precisão que sua receita exige.'),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Text(
+                  'Leve, compacta e fácil de usar. Ideal para pesar café com a precisão que sua receita exige.',
+                  textAlign: TextAlign.justify,
+                ),
+              ),
               IconButton(
                 onPressed: () {},
                 icon: const Icon(Icons.shopping_cart),

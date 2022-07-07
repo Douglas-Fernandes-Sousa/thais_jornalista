@@ -12,7 +12,7 @@ class BuyPage extends StatelessWidget {
         centerTitle: true,
       ),
       body: const SizedBox(
-        height: 500,
+        height: 550,
         child: ListViewParceiros(),
       ),
     );
