@@ -31,7 +31,7 @@ class ListViewParceiros extends StatelessWidget {
                   'https://m.media-amazon.com/images/I/31CMXJVzuLL._AC_.jpg',
                   height: 80,
                   width: 150,
-                  fit: BoxFit.fill,
+                  fit: BoxFit.cover,
                 ),
               ),
               const Padding(
@@ -69,7 +69,7 @@ class ListViewParceiros extends StatelessWidget {
                   'lib/assets/images/feijao.jpg',
                   height: 80,
                   width: 180,
-                  fit: BoxFit.fill,
+                  fit: BoxFit.cover,
                 ),
               ),
               const Padding(
@@ -107,7 +107,7 @@ class ListViewParceiros extends StatelessWidget {
                   'lib/assets/images/medidor.jpg',
                   height: 80,
                   width: 150,
-                  fit: BoxFit.fill,
+                  fit: BoxFit.cover,
                 ),
               ),
               const Padding(
